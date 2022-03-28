@@ -11,6 +11,7 @@
   inputs.src-geocoding-master.ref   = "refs/heads/master";
   inputs.src-geocoding-master.owner = "saratchandra92";
   inputs.src-geocoding-master.repo  = "nim-geocoding";
+  inputs.src-geocoding-master.dir   = "";
   inputs.src-geocoding-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
